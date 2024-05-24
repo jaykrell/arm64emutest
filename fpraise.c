@@ -1,5 +1,5 @@
 // This program produces a different results under ARM64 emulation than AMD64 native.
-// It enables floating point traps and divides by 0.
+// It uses floating point traps.
 
 #pragma fenv_access(on)
 #include <windows.h>
