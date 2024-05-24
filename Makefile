@@ -3,7 +3,7 @@ LFLAGS=-incremental:no
 
 all: fpraise.exe cos.exe
 
-.SUFFIXES: .c .obj
+.SUFFIXES: .c .exe
 
 .c.exe:
 	cl $(CFLAGS) $< -link $(LFLAGS)
