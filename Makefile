@@ -3,6 +3,7 @@ LFLAGS=-incremental:no
 
 all: fpraise.exe cos.exe
 
+.SUFFIXES:
 .SUFFIXES: .c .exe
 
 .c.exe:
