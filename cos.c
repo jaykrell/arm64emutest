@@ -11,5 +11,6 @@ int main()
         __int64 i;
     } a = {cos(-1)};
 
+    _set_FMA3_enable(0);
     printf("%s\n", (a.i == 0x3FE14A280FB5068C) ? "pass" : "fail");
 }
