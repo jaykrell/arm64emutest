@@ -9,8 +9,10 @@ int main()
     union {
         double d;
         __int64 i;
-    } a = {cos(-1)};
+    } a = {0};
 
     _set_FMA3_enable(0);
+    a.d = cos(-1);
+
     printf("%s\n", (a.i == 0x3FE14A280FB5068C) ? "pass" : "fail");
 }
