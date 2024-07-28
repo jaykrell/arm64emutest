@@ -1,7 +1,7 @@
 CFLAGS=-MD -Gy -Z7 -W4
 LFLAGS=-incremental:no
 
-all: fpraise.exe cos.exe
+all: fpraise.exe cos.exe status_invalid.exe
 
 .SUFFIXES:
 .SUFFIXES: .c .exe
